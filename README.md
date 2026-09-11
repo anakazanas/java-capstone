@@ -34,6 +34,16 @@ Our Digital Library Management System provides:
 
 ---
 
+## A Note on the Starter Code
+
+This scaffold was inherited, not written for you, like most code you'll take over on a real engagement. It is **not production-ready as handed over.** It contains at least one security/configuration choice that a careful engineer would catch and fix before building on top of it.
+
+Trust the voice in the back of your head that says *"this is a weird / unsafe / bad choice."* That instinct is one of the most valuable things you're developing here: inherited code should be read with a critical eye, not trusted by default.
+
+**But** get the baseline requirements working first, *then* harden and optimise. Don't rabbit-hole on a clever fix before the core reserve → checkout → return flow runs end-to-end (as seen via the Swagger API). As Donald Knuth put it, *"premature optimization is the root of all evil."* Finishing the contract beats polishing a corner of it, and that's a grading reality too: a complete **Baseline Build** counts for more than a half-built **Above and Beyond** (see [Grading Tiers](#grading-tiers)).
+
+---
+
 ## Getting Started
 
 ### Core Requirements Documents
@@ -140,9 +150,48 @@ Choose appropriate libraries for:
 
 ---
 
+## Grading Tiers
+
+Your submission is assessed against three cumulative tiers. Reach for the next only once the previous one is solid.
+
+| Tier | The question it answers | What it looks like |
+| --- | --- | --- |
+| **Baseline Build** | *Does it work?* | All 10 endpoints implemented to the contract; the app runs end-to-end (reserve → checkout → return); Swagger UI is live; JWT auth and role checks are in place; tests are present. This is the core bar. |
+| **Production-Ready** | *Would this survive contact with a real client?* | Clean, considered, trustworthy work: the kind you'd be comfortable handing to a client, not just something that passes on your machine. |
+| **Above and Beyond** | *Did you handle what the spec didn't spell out?* | Optional, harder work that goes past the brief. Deliberately challenging, entirely optional: attempt it only once Baseline Build is complete. |
+
+<details>
+<summary><strong>How the tiers work</strong></summary>
+
+- **Baseline Build** is the floor: a complete, working build to the contract. Finish this first; a complete Baseline Build always counts for more than a half-finished attempt at the tier above it.
+- **Production-Ready** is the standard of craft we're really looking for: clean, considered, trustworthy work.
+- **Above and Beyond** is genuinely optional. You are **not** expected to attempt all of it in the time given: pick what interests you and finish it cleanly. Choosing *what* to attempt, and knowing what to leave alone, is itself part of what we're looking at.
+
+Security runs through all three tiers. Revisit the **RESTful APIs & Security** lesson: the attack vectors it covers are exactly the kinds of failure modes we'll be probing for.
+</details>
+
+### Above and Beyond (optional)
+
+Baseline Build comes first, always. What follows are only *ideas*: "follow your curiosity" is an instruction from Deloitte, not a checklist. **Whatever you attempt, write it up in your README.**
+
+<details>
+<summary><strong>A menu of ideas</strong></summary>
+
+- **Testing**: one could perhaps explore behaviour-driven testing (e.g. Cucumber), among other approaches.
+- **Security**: revisit the RESTful APIs & Security lesson, and go as deep as you dare.
+- **Robustness**: under load, at the edges, when things don't go to plan.
+- **Performance**: where will this strain as the catalogue grows?
+- **Code craft**: clean abstractions, modern Java, static analysis.
+- **Architecture**: split into services (Feign, gateway, Eureka). Biggest effort, do it last: it breaks the single-instance deployment, so keep it on a separate, undeployed branch and attempt it only after a successful normal deploy. Doable on full AWS, likely not in our sandbox, so you'd be on your own.
+- **Your own instinct and curiosity**: spot something worth improving, justify it, build it, and document it in your README. Noticing what's worth doing is the real skill.
+
+</details>
+
+---
+
 ## Success Criteria
 
-> Capstones are graded Pass/Fail with a score out of 20 and instructor feedback.
+> Capstones are graded as **Does Not Meet**, **Partially Meets**, **Meets**, or **Exceeds Expectations**, with instructor feedback.
 
 ### User Story Compliance
 

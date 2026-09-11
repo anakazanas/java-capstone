@@ -6,6 +6,14 @@
 
 ---
 
+### ⏱️ Don't Leave Deployment to the Last Minute
+
+Deployment is the biggest last-minute point-sink here. Deploy the walking skeleton early, or at least leave real time before the deadline: just don't let it become a final-hours scramble.
+
+**Grade reality:** a deployed app at 70% beats a flawless localhost app at 100%. Last cohort, strong projects scored zero on deployment for leaving it to the final hours.
+
+---
+
 ## Business Requirements
 
 ### Deployment Objectives
@@ -94,6 +102,13 @@ Verify deployment success:
 - Verify database connectivity
 - Check API documentation accessibility
 
+### 7. README & Deployment Proof
+Your README is graded. Beyond setup/run/test, include:
+- **Design decisions** and any deliberate deviations from the spec.
+- **What you found and fixed in the starter code**: undocumented means we can't tell you caught it.
+- **Above and Beyond work attempted**, and why you chose it.
+- **Proof it runs in prod**: live URL + screenshots (Swagger, a reserve → checkout → return, a green health check).
+
 ---
 
 ## Required Environment Configuration
@@ -114,7 +129,12 @@ Your application must be configured with:
 **Security:**
 - JWT secret key (minimum 256 bits)
 
-**Note:** All sensitive values should be configured as environment variables, never hardcoded.
+### ⚠️ Credential Safety: Non-Negotiable
+
+Never commit secrets: **AWS keys, e.g.
+
+Leaked AWS keys are scraped within minutes and billed for crypto-mining. Last cohort, submissions lost their *entire* deployment score after committing AWS creds to a public repo. Leak one? **Rotate immediately**: deleting the commit won't help; git history keeps it.
+
 
 ---
 
