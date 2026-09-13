@@ -1,0 +1,659 @@
+nohup: ignoring input
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/home/du_353716-1787850954/.m2/wrapper/dists/apache-maven-3.9.11/a2d47e15/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< assembly.general:api >------------------------
+[INFO] Building api 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.5.6:run (default-cli) > test-compile @ api >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ api ---
+[INFO] Copying 3 resources from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.0:compile (default-compile) @ api ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ api ---
+[INFO] skip non existing resourceDirectory /home/du_353716-1787850954/code/ga/week2/capstone/java-capstone/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.0:testCompile (default-testCompile) @ api ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:3.5.6:run (default-cli) < test-compile @ api <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.5.6:run (default-cli) @ api ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2026-09-13T19:09:57.991-04:00  INFO 116729 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Starting ApiApplication using Java 25.0.4.1 with PID 116729 (/home/du_353716-1787850954/code/ga/week2/capstone/java-capstone/target/classes started by du_353716-1787850954 in /home/du_353716-1787850954/code/ga/week2/capstone/java-capstone)
+2026-09-13T19:09:57.993-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Running with Spring Boot v3.5.6, Spring v6.2.11
+2026-09-13T19:09:57.993-04:00  INFO 116729 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : The following 1 profile is active: "dev"
+2026-09-13T19:09:58.024-04:00  INFO 116729 --- [library-management-system] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-13T19:09:58.024-04:00  INFO 116729 --- [library-management-system] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-13T19:09:58.509-04:00  INFO 116729 --- [library-management-system] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-13T19:09:58.546-04:00  INFO 116729 --- [library-management-system] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 3 JPA repository interfaces.
+2026-09-13T19:09:58.870-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-09-13T19:09:58.879-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-13T19:09:58.879-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-09-13T19:09:58.899-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-13T19:09:58.900-04:00  INFO 116729 --- [library-management-system] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 876 ms
+2026-09-13T19:09:58.973-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-13T19:09:58.999-04:00  INFO 116729 --- [library-management-system] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2026-09-13T19:09:59.014-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-13T19:09:59.154-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-13T19:09:59.171-04:00  INFO 116729 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-13T19:09:59.268-04:00  INFO 116729 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:librarydb user=SA
+2026-09-13T19:09:59.269-04:00  INFO 116729 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-13T19:09:59.300-04:00  INFO 116729 --- [library-management-system] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-13T19:09:59.762-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-13T19:09:59.770-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    drop table if exists books cascade 
+Hibernate: 
+    drop table if exists books cascade 
+2026-09-13T19:09:59.773-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    drop table if exists reservations cascade 
+Hibernate: 
+    drop table if exists reservations cascade 
+2026-09-13T19:09:59.773-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    drop table if exists users cascade 
+Hibernate: 
+    drop table if exists users cascade 
+2026-09-13T19:09:59.776-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    create table books (
+        available_copies integer not null,
+        page_count integer,
+        publication_year integer not null,
+        total_copies integer not null,
+        created_at timestamp(6) with time zone not null,
+        updated_at timestamp(6) with time zone not null,
+        id uuid not null,
+        description varchar(2000),
+        author varchar(255) not null,
+        genre varchar(255) not null,
+        isbn varchar(255) not null unique,
+        language varchar(255),
+        publisher varchar(255),
+        title varchar(255) not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table books (
+        available_copies integer not null,
+        page_count integer,
+        publication_year integer not null,
+        total_copies integer not null,
+        created_at timestamp(6) with time zone not null,
+        updated_at timestamp(6) with time zone not null,
+        id uuid not null,
+        description varchar(2000),
+        author varchar(255) not null,
+        genre varchar(255) not null,
+        isbn varchar(255) not null unique,
+        language varchar(255),
+        publisher varchar(255),
+        title varchar(255) not null,
+        primary key (id)
+    )
+2026-09-13T19:09:59.781-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    create table reservations (
+        late_days integer,
+        late_fee numeric(38,2),
+        checked_out_at timestamp(6) with time zone,
+        due_date timestamp(6) with time zone,
+        expires_at timestamp(6) with time zone not null,
+        reserved_at timestamp(6) with time zone not null,
+        returned_at timestamp(6) with time zone,
+        book_id uuid not null,
+        id uuid not null,
+        user_id uuid not null,
+        checkout_notes varchar(1000),
+        return_notes varchar(1000),
+        return_condition enum ('DAMAGED','FAIR','GOOD','POOR'),
+        status enum ('CANCELLED','CHECKED_OUT','RESERVED','RETURNED') not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table reservations (
+        late_days integer,
+        late_fee numeric(38,2),
+        checked_out_at timestamp(6) with time zone,
+        due_date timestamp(6) with time zone,
+        expires_at timestamp(6) with time zone not null,
+        reserved_at timestamp(6) with time zone not null,
+        returned_at timestamp(6) with time zone,
+        book_id uuid not null,
+        id uuid not null,
+        user_id uuid not null,
+        checkout_notes varchar(1000),
+        return_notes varchar(1000),
+        return_condition enum ('DAMAGED','FAIR','GOOD','POOR'),
+        status enum ('CANCELLED','CHECKED_OUT','RESERVED','RETURNED') not null,
+        primary key (id)
+    )
+2026-09-13T19:09:59.783-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    create table users (
+        created_at timestamp(6) with time zone not null,
+        id uuid not null,
+        email varchar(255) not null unique,
+        first_name varchar(255) not null,
+        last_name varchar(255) not null,
+        password varchar(255) not null,
+        phone_number varchar(255) not null,
+        membership_status enum ('ACTIVE','INACTIVE','SUSPENDED') not null,
+        role enum ('LIBRARIAN','PATRON') not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table users (
+        created_at timestamp(6) with time zone not null,
+        id uuid not null,
+        email varchar(255) not null unique,
+        first_name varchar(255) not null,
+        last_name varchar(255) not null,
+        password varchar(255) not null,
+        phone_number varchar(255) not null,
+        membership_status enum ('ACTIVE','INACTIVE','SUSPENDED') not null,
+        role enum ('LIBRARIAN','PATRON') not null,
+        primary key (id)
+    )
+2026-09-13T19:09:59.784-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    alter table if exists reservations 
+       add constraint FKrsdd3ib3landfpmgoolccjakt 
+       foreign key (book_id) 
+       references books
+Hibernate: 
+    alter table if exists reservations 
+       add constraint FKrsdd3ib3landfpmgoolccjakt 
+       foreign key (book_id) 
+       references books
+2026-09-13T19:09:59.792-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    alter table if exists reservations 
+       add constraint FKb5g9io5h54iwl2inkno50ppln 
+       foreign key (user_id) 
+       references users
+Hibernate: 
+    alter table if exists reservations 
+       add constraint FKb5g9io5h54iwl2inkno50ppln 
+       foreign key (user_id) 
+       references users
+2026-09-13T19:09:59.795-04:00  INFO 116729 --- [library-management-system] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-13T19:09:59.971-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] a.g.a.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2026-09-13T19:10:00.117-04:00  WARN 116729 --- [library-management-system] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-13T19:10:00.210-04:00  INFO 116729 --- [library-management-system] [  restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-13T19:10:00.210-04:00  WARN 116729 --- [library-management-system] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-13T19:10:00.377-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:librarydb'
+2026-09-13T19:10:00.411-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-13T19:10:00.428-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-09-13T19:10:00.434-04:00  INFO 116729 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Started ApiApplication in 2.681 seconds (process running for 2.897)
+2026-09-13T19:10:00.587-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        count(*) 
+    from
+        books b1_0
+Hibernate: 
+    select
+        count(*) 
+    from
+        books b1_0
+2026-09-13T19:10:00.620-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T19:10:00.627-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T19:10:00.629-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T19:10:00.630-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T19:10:00.631-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T19:10:00.632-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T19:10:00.634-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T19:10:00.635-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T19:10:00.636-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T19:10:00.637-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T19:10:12.902-04:00  INFO 116729 --- [library-management-system] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-13T19:10:12.902-04:00  INFO 116729 --- [library-management-system] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-13T19:10:12.903-04:00  INFO 116729 --- [library-management-system] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-09-13T19:10:12.945-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    order by
+        b1_0.title 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    order by
+        b1_0.title 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-09-13T19:10:19.702-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        lower(b1_0.title) like ? escape '' 
+        or lower(b1_0.author) like ? escape '' 
+    order by
+        b1_0.title 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        lower(b1_0.title) like ? escape '' 
+        or lower(b1_0.author) like ? escape '' 
+    order by
+        b1_0.title 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-09-13T19:10:29.231-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.genre=? 
+        and b1_0.available_copies>? 
+    order by
+        b1_0.title 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.genre=? 
+        and b1_0.available_copies>? 
+    order by
+        b1_0.title 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-09-13T19:10:37.737-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    order by
+        b1_0.publication_year desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    order by
+        b1_0.publication_year desc 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-09-13T19:10:37.740-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        count(b1_0.id) 
+    from
+        books b1_0
+Hibernate: 
+    select
+        count(b1_0.id) 
+    from
+        books b1_0
+2026-09-13T19:10:48.916-04:00  WARN 116729 --- [library-management-system] [nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'bookId': Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: PASTE_A_BOOK_ID]
+2026-09-13T19:11:02.536-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+2026-09-13T19:11:02.539-04:00  WARN 116729 --- [library-management-system] [nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [assembly.general.api.exception.ResourceNotFoundException: Book not found with ID: 00000000-0000-0000-0000-000000000000]
+2026-09-13T19:11:10.282-04:00  WARN 116729 --- [library-management-system] [nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'bookId': Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: not-a-real-uuid]
+2026-09-13T19:11:48.880-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
