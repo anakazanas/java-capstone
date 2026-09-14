@@ -4111,3 +4111,4 @@ Hibernate:
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?)
 2026-09-13T20:32:42.403-04:00  INFO 119983 --- [library-management-system] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-09-14T10:17:33.368-04:00  WARN 119983 --- [library-management-system] [l-3:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=57s601ms6µs89ns).
