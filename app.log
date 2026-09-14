@@ -40,26 +40,26 @@ WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
 
  :: Spring Boot ::                (v3.5.6)
 
-2026-09-13T19:09:57.991-04:00  INFO 116729 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Starting ApiApplication using Java 25.0.4.1 with PID 116729 (/home/du_353716-1787850954/code/ga/week2/capstone/java-capstone/target/classes started by du_353716-1787850954 in /home/du_353716-1787850954/code/ga/week2/capstone/java-capstone)
-2026-09-13T19:09:57.993-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Running with Spring Boot v3.5.6, Spring v6.2.11
-2026-09-13T19:09:57.993-04:00  INFO 116729 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : The following 1 profile is active: "dev"
-2026-09-13T19:09:58.024-04:00  INFO 116729 --- [library-management-system] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-09-13T19:09:58.024-04:00  INFO 116729 --- [library-management-system] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-09-13T19:09:58.509-04:00  INFO 116729 --- [library-management-system] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-09-13T19:09:58.546-04:00  INFO 116729 --- [library-management-system] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 3 JPA repository interfaces.
-2026-09-13T19:09:58.870-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-09-13T19:09:58.879-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-09-13T19:09:58.879-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
-2026-09-13T19:09:58.899-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-09-13T19:09:58.900-04:00  INFO 116729 --- [library-management-system] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 876 ms
-2026-09-13T19:09:58.973-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-09-13T19:09:58.999-04:00  INFO 116729 --- [library-management-system] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
-2026-09-13T19:09:59.014-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-09-13T19:09:59.154-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-09-13T19:09:59.171-04:00  INFO 116729 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-09-13T19:09:59.268-04:00  INFO 116729 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:librarydb user=SA
-2026-09-13T19:09:59.269-04:00  INFO 116729 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-09-13T19:09:59.300-04:00  INFO 116729 --- [library-management-system] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-09-13T20:00:54.674-04:00  INFO 119983 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Starting ApiApplication using Java 25.0.4.1 with PID 119983 (/home/du_353716-1787850954/code/ga/week2/capstone/java-capstone/target/classes started by du_353716-1787850954 in /home/du_353716-1787850954/code/ga/week2/capstone/java-capstone)
+2026-09-13T20:00:54.676-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Running with Spring Boot v3.5.6, Spring v6.2.11
+2026-09-13T20:00:54.677-04:00  INFO 119983 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : The following 1 profile is active: "dev"
+2026-09-13T20:00:54.710-04:00  INFO 119983 --- [library-management-system] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-13T20:00:54.710-04:00  INFO 119983 --- [library-management-system] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-13T20:00:55.226-04:00  INFO 119983 --- [library-management-system] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-13T20:00:55.264-04:00  INFO 119983 --- [library-management-system] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 3 JPA repository interfaces.
+2026-09-13T20:00:55.611-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-09-13T20:00:55.621-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-13T20:00:55.621-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-09-13T20:00:55.642-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-13T20:00:55.642-04:00  INFO 119983 --- [library-management-system] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 932 ms
+2026-09-13T20:00:55.740-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-13T20:00:55.761-04:00  INFO 119983 --- [library-management-system] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2026-09-13T20:00:55.777-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-13T20:00:55.929-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-13T20:00:55.947-04:00  INFO 119983 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-13T20:00:56.045-04:00  INFO 119983 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:librarydb user=SA
+2026-09-13T20:00:56.047-04:00  INFO 119983 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-13T20:00:56.078-04:00  INFO 119983 --- [library-management-system] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -67,20 +67,20 @@ WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-09-13T19:09:59.762-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-09-13T19:09:59.770-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:56.560-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-13T20:00:56.568-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     drop table if exists books cascade 
 Hibernate: 
     drop table if exists books cascade 
-2026-09-13T19:09:59.773-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:56.570-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     drop table if exists reservations cascade 
 Hibernate: 
     drop table if exists reservations cascade 
-2026-09-13T19:09:59.773-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:56.571-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     drop table if exists users cascade 
 Hibernate: 
     drop table if exists users cascade 
-2026-09-13T19:09:59.776-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:56.573-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     create table books (
         available_copies integer not null,
         page_count integer,
@@ -116,7 +116,7 @@ Hibernate:
         title varchar(255) not null,
         primary key (id)
     )
-2026-09-13T19:09:59.781-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:56.579-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     create table reservations (
         late_days integer,
         late_fee numeric(38,2),
@@ -152,7 +152,7 @@ Hibernate:
         status enum ('CANCELLED','CHECKED_OUT','RESERVED','RETURNED') not null,
         primary key (id)
     )
-2026-09-13T19:09:59.783-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:56.580-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     create table users (
         created_at timestamp(6) with time zone not null,
         id uuid not null,
@@ -178,7 +178,7 @@ Hibernate:
         role enum ('LIBRARIAN','PATRON') not null,
         primary key (id)
     )
-2026-09-13T19:09:59.784-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:56.581-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     alter table if exists reservations 
        add constraint FKrsdd3ib3landfpmgoolccjakt 
        foreign key (book_id) 
@@ -188,7 +188,7 @@ Hibernate:
        add constraint FKrsdd3ib3landfpmgoolccjakt 
        foreign key (book_id) 
        references books
-2026-09-13T19:09:59.792-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:56.589-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     alter table if exists reservations 
        add constraint FKb5g9io5h54iwl2inkno50ppln 
        foreign key (user_id) 
@@ -198,16 +198,17 @@ Hibernate:
        add constraint FKb5g9io5h54iwl2inkno50ppln 
        foreign key (user_id) 
        references users
-2026-09-13T19:09:59.795-04:00  INFO 116729 --- [library-management-system] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-09-13T19:09:59.971-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] a.g.a.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
-2026-09-13T19:10:00.117-04:00  WARN 116729 --- [library-management-system] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-09-13T19:10:00.210-04:00  INFO 116729 --- [library-management-system] [  restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-09-13T19:10:00.210-04:00  WARN 116729 --- [library-management-system] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2026-09-13T19:10:00.377-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:librarydb'
-2026-09-13T19:10:00.411-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-09-13T19:10:00.428-04:00  INFO 116729 --- [library-management-system] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-09-13T19:10:00.434-04:00  INFO 116729 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Started ApiApplication in 2.681 seconds (process running for 2.897)
-2026-09-13T19:10:00.587-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:56.592-04:00  INFO 119983 --- [library-management-system] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-13T20:00:56.790-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] a.g.a.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2026-09-13T20:00:56.890-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-09-13T20:00:57.350-04:00  WARN 119983 --- [library-management-system] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-13T20:00:57.472-04:00  INFO 119983 --- [library-management-system] [  restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-13T20:00:57.473-04:00  WARN 119983 --- [library-management-system] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-13T20:00:57.692-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:librarydb'
+2026-09-13T20:00:57.747-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-13T20:00:57.769-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-09-13T20:00:57.775-04:00  INFO 119983 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Started ApiApplication in 3.348 seconds (process running for 3.576)
+2026-09-13T20:00:57.821-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     select
         count(*) 
     from
@@ -217,7 +218,7 @@ Hibernate:
         count(*) 
     from
         books b1_0
-2026-09-13T19:10:00.620-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:57.859-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         books
@@ -231,7 +232,7 @@ Hibernate:
         (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2026-09-13T19:10:00.627-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:57.867-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         books
@@ -245,7 +246,7 @@ Hibernate:
         (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2026-09-13T19:10:00.629-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:57.868-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         books
@@ -259,7 +260,7 @@ Hibernate:
         (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2026-09-13T19:10:00.630-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:57.869-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         books
@@ -273,7 +274,7 @@ Hibernate:
         (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2026-09-13T19:10:00.631-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:57.871-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         books
@@ -287,7 +288,7 @@ Hibernate:
         (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2026-09-13T19:10:00.632-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:57.872-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         books
@@ -301,7 +302,7 @@ Hibernate:
         (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2026-09-13T19:10:00.634-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:57.873-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         books
@@ -315,7 +316,7 @@ Hibernate:
         (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2026-09-13T19:10:00.635-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:57.874-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         books
@@ -329,7 +330,7 @@ Hibernate:
         (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2026-09-13T19:10:00.636-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:57.875-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         books
@@ -343,7 +344,7 @@ Hibernate:
         (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2026-09-13T19:10:00.637-04:00 DEBUG 116729 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+2026-09-13T20:00:57.877-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     insert 
     into
         books
@@ -357,58 +358,134 @@ Hibernate:
         (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2026-09-13T19:10:12.902-04:00  INFO 116729 --- [library-management-system] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-09-13T19:10:12.902-04:00  INFO 116729 --- [library-management-system] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-09-13T19:10:12.903-04:00  INFO 116729 --- [library-management-system] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-09-13T19:10:12.945-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+2026-09-13T20:00:57.908-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     select
-        b1_0.id,
-        b1_0.author,
-        b1_0.available_copies,
-        b1_0.created_at,
-        b1_0.description,
-        b1_0.genre,
-        b1_0.isbn,
-        b1_0.language,
-        b1_0.page_count,
-        b1_0.publication_year,
-        b1_0.publisher,
-        b1_0.title,
-        b1_0.total_copies,
-        b1_0.updated_at 
+        u1_0.id 
     from
-        books b1_0 
-    order by
-        b1_0.title 
-    offset
-        ? rows 
+        users u1_0 
+    where
+        u1_0.email=? 
     fetch
         first ? rows only
 Hibernate: 
     select
-        b1_0.id,
-        b1_0.author,
-        b1_0.available_copies,
-        b1_0.created_at,
-        b1_0.description,
-        b1_0.genre,
-        b1_0.isbn,
-        b1_0.language,
-        b1_0.page_count,
-        b1_0.publication_year,
-        b1_0.publisher,
-        b1_0.title,
-        b1_0.total_copies,
-        b1_0.updated_at 
+        u1_0.id 
     from
-        books b1_0 
-    order by
-        b1_0.title 
-    offset
-        ? rows 
+        users u1_0 
+    where
+        u1_0.email=? 
     fetch
         first ? rows only
-2026-09-13T19:10:19.702-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+2026-09-13T20:00:57.984-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (created_at, email, first_name, last_name, membership_status, password, phone_number, role, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        users
+        (created_at, email, first_name, last_name, membership_status, password, phone_number, role, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:01:22.424-04:00  INFO 119983 --- [library-management-system] [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-13T20:01:22.425-04:00  INFO 119983 --- [library-management-system] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-13T20:01:22.426-04:00  INFO 119983 --- [library-management-system] [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-09-13T20:01:22.520-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id 
+    from
+        users u1_0 
+    where
+        u1_0.email=? 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        u1_0.id 
+    from
+        users u1_0 
+    where
+        u1_0.email=? 
+    fetch
+        first ? rows only
+2026-09-13T20:01:22.593-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (created_at, email, first_name, last_name, membership_status, password, phone_number, role, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        users
+        (created_at, email, first_name, last_name, membership_status, password, phone_number, role, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:01:22.637-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:01:22.774-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:01:22.873-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-4] org.hibernate.SQL                        : 
     select
         b1_0.id,
         b1_0.author,
@@ -462,7 +539,90 @@ Hibernate:
         ? rows 
     fetch
         first ? rows only
-2026-09-13T19:10:29.231-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-3] org.hibernate.SQL                        : 
+2026-09-13T20:01:34.410-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:01:34.421-04:00  WARN 119983 --- [library-management-system] [nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.UUID` from String "<paste the real bookId here>": UUID has to be represented by standard 36-char representation]
+2026-09-13T20:02:24.824-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:02:24.834-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+Hibernate: 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+2026-09-13T20:02:24.840-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
     select
         b1_0.id,
         b1_0.author,
@@ -481,8 +641,451 @@ Hibernate:
     from
         books b1_0 
     where
-        b1_0.genre=? 
-        and b1_0.available_copies>? 
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+2026-09-13T20:02:24.841-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-09-13T20:02:24.845-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:02:24.848-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+Hibernate: 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+2026-09-13T20:03:17.747-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:03:17.759-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+Hibernate: 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+2026-09-13T20:03:17.768-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    update
+        reservations 
+    set
+        book_id=?,
+        checked_out_at=?,
+        checkout_notes=?,
+        due_date=?,
+        expires_at=?,
+        late_days=?,
+        late_fee=?,
+        reserved_at=?,
+        return_condition=?,
+        return_notes=?,
+        returned_at=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+Hibernate: 
+    update
+        reservations 
+    set
+        book_id=?,
+        checked_out_at=?,
+        checkout_notes=?,
+        due_date=?,
+        expires_at=?,
+        late_days=?,
+        late_fee=?,
+        reserved_at=?,
+        return_condition=?,
+        return_notes=?,
+        returned_at=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+2026-09-13T20:03:27.517-04:00 DEBUG 119983 --- [library-management-system] [io-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:03:27.523-04:00  WARN 119983 --- [library-management-system] [io-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.security.authorization.AuthorizationDeniedException: Access Denied]
+2026-09-13T20:04:02.473-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:04:02.484-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+Hibernate: 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+2026-09-13T20:04:02.486-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+2026-09-13T20:04:02.488-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    update
+        reservations 
+    set
+        book_id=?,
+        checked_out_at=?,
+        checkout_notes=?,
+        due_date=?,
+        expires_at=?,
+        late_days=?,
+        late_fee=?,
+        reserved_at=?,
+        return_condition=?,
+        return_notes=?,
+        returned_at=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+Hibernate: 
+    update
+        reservations 
+    set
+        book_id=?,
+        checked_out_at=?,
+        checkout_notes=?,
+        due_date=?,
+        expires_at=?,
+        late_days=?,
+        late_fee=?,
+        reserved_at=?,
+        return_condition=?,
+        return_notes=?,
+        returned_at=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+2026-09-13T20:04:02.489-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+Hibernate: 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+2026-09-13T20:04:08.898-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        lower(b1_0.title) like ? escape '' 
+        or lower(b1_0.author) like ? escape '' 
     order by
         b1_0.title 
     offset
@@ -508,15 +1111,1467 @@ Hibernate:
     from
         books b1_0 
     where
-        b1_0.genre=? 
-        and b1_0.available_copies>? 
+        lower(b1_0.title) like ? escape '' 
+        or lower(b1_0.author) like ? escape '' 
     order by
         b1_0.title 
     offset
         ? rows 
     fetch
         first ? rows only
-2026-09-13T19:10:37.737-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-4] org.hibernate.SQL                        : 
+2026-09-13T20:04:14.784-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-4] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:04:14.789-04:00  WARN 119983 --- [library-management-system] [nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.util.UUID` from String "PASTE_1984_BOOK_ID": UUID has to be represented by standard 36-char representation]
+2026-09-13T20:04:21.225-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:04:21.232-04:00  WARN 119983 --- [library-management-system] [nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'reservationId': Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: PASTE_NEW_RES_ID]
+2026-09-13T20:04:43.867-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:04:43.871-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+Hibernate: 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+2026-09-13T20:04:43.875-04:00  WARN 119983 --- [library-management-system] [nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [assembly.general.api.exception.InvalidStatusException: Can only return books with CHECKED_OUT status]
+2026-09-13T20:04:49.256-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        lower(b1_0.title) like ? escape '' 
+        or lower(b1_0.author) like ? escape '' 
+    order by
+        b1_0.title 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        lower(b1_0.title) like ? escape '' 
+        or lower(b1_0.author) like ? escape '' 
+    order by
+        b1_0.title 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-09-13T20:05:09.056-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:05:09.062-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+Hibernate: 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+2026-09-13T20:05:09.064-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+2026-09-13T20:05:09.065-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-09-13T20:05:09.066-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:05:09.067-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+Hibernate: 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+2026-09-13T20:06:00.746-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:06:00.750-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+Hibernate: 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+2026-09-13T20:06:00.752-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    update
+        reservations 
+    set
+        book_id=?,
+        checked_out_at=?,
+        checkout_notes=?,
+        due_date=?,
+        expires_at=?,
+        late_days=?,
+        late_fee=?,
+        reserved_at=?,
+        return_condition=?,
+        return_notes=?,
+        returned_at=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+Hibernate: 
+    update
+        reservations 
+    set
+        book_id=?,
+        checked_out_at=?,
+        checkout_notes=?,
+        due_date=?,
+        expires_at=?,
+        late_days=?,
+        late_fee=?,
+        reserved_at=?,
+        return_condition=?,
+        return_notes=?,
+        returned_at=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+2026-09-13T20:07:23.721-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:07:23.725-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+Hibernate: 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+2026-09-13T20:07:23.727-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+2026-09-13T20:07:23.728-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    update
+        reservations 
+    set
+        book_id=?,
+        checked_out_at=?,
+        checkout_notes=?,
+        due_date=?,
+        expires_at=?,
+        late_days=?,
+        late_fee=?,
+        reserved_at=?,
+        return_condition=?,
+        return_notes=?,
+        returned_at=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+Hibernate: 
+    update
+        reservations 
+    set
+        book_id=?,
+        checked_out_at=?,
+        checkout_notes=?,
+        due_date=?,
+        expires_at=?,
+        late_days=?,
+        late_fee=?,
+        reserved_at=?,
+        return_condition=?,
+        return_notes=?,
+        returned_at=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+2026-09-13T20:07:23.729-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+Hibernate: 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+2026-09-13T20:07:58.639-04:00 DEBUG 119983 --- [library-management-system] [io-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        lower(b1_0.title) like ? escape '' 
+        or lower(b1_0.author) like ? escape '' 
+    order by
+        b1_0.title 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        lower(b1_0.title) like ? escape '' 
+        or lower(b1_0.author) like ? escape '' 
+    order by
+        b1_0.title 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-09-13T20:08:18.315-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:08:18.320-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+Hibernate: 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+2026-09-13T20:08:18.321-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+2026-09-13T20:08:18.324-04:00  WARN 119983 --- [library-management-system] [nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [assembly.general.api.exception.BookUnavailableException: No copies available for reservation]
+2026-09-13T20:08:51.689-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        lower(b1_0.title) like ? escape '' 
+        or lower(b1_0.author) like ? escape '' 
+    order by
+        b1_0.title 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        lower(b1_0.title) like ? escape '' 
+        or lower(b1_0.author) like ? escape '' 
+    order by
+        b1_0.title 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-09-13T20:09:17.675-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:09:17.681-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+Hibernate: 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+2026-09-13T20:09:17.682-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+2026-09-13T20:09:17.683-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-09-13T20:09:17.684-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:09:17.685-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+Hibernate: 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+2026-09-13T20:09:45.737-04:00 DEBUG 119983 --- [library-management-system] [io-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:09:45.741-04:00 DEBUG 119983 --- [library-management-system] [io-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+Hibernate: 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+2026-09-13T20:09:45.743-04:00 DEBUG 119983 --- [library-management-system] [io-8080-exec-10] org.hibernate.SQL                        : 
+    update
+        reservations 
+    set
+        book_id=?,
+        checked_out_at=?,
+        checkout_notes=?,
+        due_date=?,
+        expires_at=?,
+        late_days=?,
+        late_fee=?,
+        reserved_at=?,
+        return_condition=?,
+        return_notes=?,
+        returned_at=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+Hibernate: 
+    update
+        reservations 
+    set
+        book_id=?,
+        checked_out_at=?,
+        checkout_notes=?,
+        due_date=?,
+        expires_at=?,
+        late_days=?,
+        late_fee=?,
+        reserved_at=?,
+        return_condition=?,
+        return_notes=?,
+        returned_at=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+2026-09-13T20:10:51.179-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:10:51.184-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+Hibernate: 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id 
+    from
+        reservations r1_0 
+    where
+        r1_0.id=?
+2026-09-13T20:10:51.185-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+2026-09-13T20:10:51.186-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    update
+        reservations 
+    set
+        book_id=?,
+        checked_out_at=?,
+        checkout_notes=?,
+        due_date=?,
+        expires_at=?,
+        late_days=?,
+        late_fee=?,
+        reserved_at=?,
+        return_condition=?,
+        return_notes=?,
+        returned_at=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+Hibernate: 
+    update
+        reservations 
+    set
+        book_id=?,
+        checked_out_at=?,
+        checkout_notes=?,
+        due_date=?,
+        expires_at=?,
+        late_days=?,
+        late_fee=?,
+        reserved_at=?,
+        return_condition=?,
+        return_notes=?,
+        returned_at=?,
+        status=?,
+        user_id=? 
+    where
+        id=?
+2026-09-13T20:10:51.187-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+Hibernate: 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+2026-09-13T20:11:09.980-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:11:09.993-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id,
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        reservations r1_0 
+    join
+        books b1_0 
+            on b1_0.id=r1_0.book_id 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+    order by
+        coalesce(r1_0.returned_at, r1_0.reserved_at) desc 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        r1_0.id,
+        r1_0.book_id,
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at,
+        r1_0.checked_out_at,
+        r1_0.checkout_notes,
+        r1_0.due_date,
+        r1_0.expires_at,
+        r1_0.late_days,
+        r1_0.late_fee,
+        r1_0.reserved_at,
+        r1_0.return_condition,
+        r1_0.return_notes,
+        r1_0.returned_at,
+        r1_0.status,
+        r1_0.user_id,
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        reservations r1_0 
+    join
+        books b1_0 
+            on b1_0.id=r1_0.book_id 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+    order by
+        coalesce(r1_0.returned_at, r1_0.reserved_at) desc 
+    fetch
+        first ? rows only
+2026-09-13T20:11:16.800-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
     select
         b1_0.id,
         b1_0.author,
@@ -535,7 +2590,7 @@ Hibernate:
     from
         books b1_0 
     order by
-        b1_0.publication_year desc 
+        b1_0.title 
     offset
         ? rows 
     fetch
@@ -559,101 +2614,1500 @@ Hibernate:
     from
         books b1_0 
     order by
-        b1_0.publication_year desc 
+        b1_0.title 
     offset
         ? rows 
     fetch
         first ? rows only
-2026-09-13T19:10:37.740-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-4] org.hibernate.SQL                        : 
+2026-09-13T20:12:13.450-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
     select
-        count(b1_0.id) 
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:12:13.455-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+Hibernate: 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+2026-09-13T20:12:13.457-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+2026-09-13T20:12:13.458-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-09-13T20:12:13.459-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:12:13.460-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-7] org.hibernate.SQL                        : 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+Hibernate: 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+2026-09-13T20:12:13.471-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:12:13.475-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+Hibernate: 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+2026-09-13T20:12:13.475-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+2026-09-13T20:12:13.476-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-6] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-09-13T20:12:13.477-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-6] org.hibernate.SQL                        : 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:12:13.477-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-6] org.hibernate.SQL                        : 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+Hibernate: 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+2026-09-13T20:12:13.486-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:12:13.489-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+Hibernate: 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+2026-09-13T20:12:13.490-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+2026-09-13T20:12:13.490-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-09-13T20:12:13.491-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-5] org.hibernate.SQL                        : 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:12:13.492-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-5] org.hibernate.SQL                        : 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+Hibernate: 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+2026-09-13T20:12:13.500-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:12:13.503-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+Hibernate: 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+2026-09-13T20:12:13.504-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+2026-09-13T20:12:13.504-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-09-13T20:12:13.506-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:12:13.506-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-2] org.hibernate.SQL                        : 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+Hibernate: 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+2026-09-13T20:12:13.515-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:12:13.517-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+Hibernate: 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+2026-09-13T20:12:13.518-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+Hibernate: 
+    select
+        b1_0.id,
+        b1_0.author,
+        b1_0.available_copies,
+        b1_0.created_at,
+        b1_0.description,
+        b1_0.genre,
+        b1_0.isbn,
+        b1_0.language,
+        b1_0.page_count,
+        b1_0.publication_year,
+        b1_0.publisher,
+        b1_0.title,
+        b1_0.total_copies,
+        b1_0.updated_at 
+    from
+        books b1_0 
+    where
+        b1_0.id=?
+2026-09-13T20:12:13.518-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.id=?
+2026-09-13T20:12:13.519-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        reservations
+        (book_id, checked_out_at, checkout_notes, due_date, expires_at, late_days, late_fee, reserved_at, return_condition, return_notes, returned_at, status, user_id, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:12:13.520-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-1] org.hibernate.SQL                        : 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+Hibernate: 
+    update
+        books 
+    set
+        author=?,
+        available_copies=?,
+        description=?,
+        genre=?,
+        isbn=?,
+        language=?,
+        page_count=?,
+        publication_year=?,
+        publisher=?,
+        title=?,
+        total_copies=?,
+        updated_at=? 
+    where
+        id=?
+2026-09-13T20:12:22.651-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+Hibernate: 
+    select
+        u1_0.id,
+        u1_0.created_at,
+        u1_0.email,
+        u1_0.first_name,
+        u1_0.last_name,
+        u1_0.membership_status,
+        u1_0.password,
+        u1_0.phone_number,
+        u1_0.role 
+    from
+        users u1_0 
+    where
+        u1_0.email=?
+2026-09-13T20:12:22.656-04:00 DEBUG 119983 --- [library-management-system] [nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+Hibernate: 
+    select
+        count(r1_0.id) 
+    from
+        reservations r1_0 
+    join
+        users u1_0 
+            on u1_0.id=r1_0.user_id 
+    where
+        u1_0.id=? 
+        and r1_0.status in (?, ?)
+2026-09-13T20:12:22.659-04:00  WARN 119983 --- [library-management-system] [nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [assembly.general.api.exception.ReservationLimitExceededException: You have reached the maximum of 5 active reservations]
+2026-09-13T20:31:20.529-04:00  INFO 119983 --- [library-management-system] [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 59 class path changes (0 additions, 0 deletions, 59 modifications)
+2026-09-13T20:31:20.532-04:00  INFO 119983 --- [library-management-system] [       Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-13T20:31:20.537-04:00  INFO 119983 --- [library-management-system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-09-13T20:31:20.540-04:00  INFO 119983 --- [library-management-system] [       Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-13T20:31:20.541-04:00 DEBUG 119983 --- [library-management-system] [       Thread-5] org.hibernate.SQL                        : 
+    drop table if exists books cascade 
+Hibernate: 
+    drop table if exists books cascade 
+2026-09-13T20:31:20.542-04:00 DEBUG 119983 --- [library-management-system] [       Thread-5] org.hibernate.SQL                        : 
+    drop table if exists reservations cascade 
+Hibernate: 
+    drop table if exists reservations cascade 
+2026-09-13T20:31:20.543-04:00 DEBUG 119983 --- [library-management-system] [       Thread-5] org.hibernate.SQL                        : 
+    drop table if exists users cascade 
+Hibernate: 
+    drop table if exists users cascade 
+2026-09-13T20:31:20.547-04:00  WARN 119983 --- [library-management-system] [       Thread-5] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-09-13T20:31:20.547-04:00  INFO 119983 --- [library-management-system] [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-09-13T20:31:20.548-04:00  INFO 119983 --- [library-management-system] [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2026-09-13T20:31:20.664-04:00  INFO 119983 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Starting ApiApplication using Java 25.0.4.1 with PID 119983 (/home/du_353716-1787850954/code/ga/week2/capstone/java-capstone/target/classes started by du_353716-1787850954 in /home/du_353716-1787850954/code/ga/week2/capstone/java-capstone)
+2026-09-13T20:31:20.664-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Running with Spring Boot v3.5.6, Spring v6.2.11
+2026-09-13T20:31:20.664-04:00  INFO 119983 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : The following 1 profile is active: "dev"
+2026-09-13T20:31:20.862-04:00  INFO 119983 --- [library-management-system] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-13T20:31:20.878-04:00  INFO 119983 --- [library-management-system] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 3 JPA repository interfaces.
+2026-09-13T20:31:20.994-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-09-13T20:31:20.995-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-13T20:31:20.995-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-09-13T20:31:21.002-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-09-13T20:31:21.002-04:00  INFO 119983 --- [library-management-system] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 336 ms
+2026-09-13T20:31:21.046-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-13T20:31:21.048-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-13T20:31:21.057-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-13T20:31:21.058-04:00  INFO 119983 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-09-13T20:31:21.060-04:00  INFO 119983 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn21: url=jdbc:h2:mem:librarydb user=SA
+2026-09-13T20:31:21.060-04:00  INFO 119983 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-09-13T20:31:21.061-04:00  INFO 119983 --- [library-management-system] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-13T20:31:21.219-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-13T20:31:21.222-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    drop table if exists books cascade 
+Hibernate: 
+    drop table if exists books cascade 
+2026-09-13T20:31:21.223-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    drop table if exists reservations cascade 
+Hibernate: 
+    drop table if exists reservations cascade 
+2026-09-13T20:31:21.223-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    drop table if exists users cascade 
+Hibernate: 
+    drop table if exists users cascade 
+2026-09-13T20:31:21.224-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    create table books (
+        available_copies integer not null,
+        page_count integer,
+        publication_year integer not null,
+        total_copies integer not null,
+        created_at timestamp(6) with time zone not null,
+        updated_at timestamp(6) with time zone not null,
+        id uuid not null,
+        description varchar(2000),
+        author varchar(255) not null,
+        genre varchar(255) not null,
+        isbn varchar(255) not null unique,
+        language varchar(255),
+        publisher varchar(255),
+        title varchar(255) not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table books (
+        available_copies integer not null,
+        page_count integer,
+        publication_year integer not null,
+        total_copies integer not null,
+        created_at timestamp(6) with time zone not null,
+        updated_at timestamp(6) with time zone not null,
+        id uuid not null,
+        description varchar(2000),
+        author varchar(255) not null,
+        genre varchar(255) not null,
+        isbn varchar(255) not null unique,
+        language varchar(255),
+        publisher varchar(255),
+        title varchar(255) not null,
+        primary key (id)
+    )
+2026-09-13T20:31:21.229-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    create table reservations (
+        late_days integer,
+        late_fee numeric(38,2),
+        checked_out_at timestamp(6) with time zone,
+        due_date timestamp(6) with time zone,
+        expires_at timestamp(6) with time zone not null,
+        reserved_at timestamp(6) with time zone not null,
+        returned_at timestamp(6) with time zone,
+        book_id uuid not null,
+        id uuid not null,
+        user_id uuid not null,
+        checkout_notes varchar(1000),
+        return_notes varchar(1000),
+        return_condition enum ('DAMAGED','FAIR','GOOD','POOR'),
+        status enum ('CANCELLED','CHECKED_OUT','RESERVED','RETURNED') not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table reservations (
+        late_days integer,
+        late_fee numeric(38,2),
+        checked_out_at timestamp(6) with time zone,
+        due_date timestamp(6) with time zone,
+        expires_at timestamp(6) with time zone not null,
+        reserved_at timestamp(6) with time zone not null,
+        returned_at timestamp(6) with time zone,
+        book_id uuid not null,
+        id uuid not null,
+        user_id uuid not null,
+        checkout_notes varchar(1000),
+        return_notes varchar(1000),
+        return_condition enum ('DAMAGED','FAIR','GOOD','POOR'),
+        status enum ('CANCELLED','CHECKED_OUT','RESERVED','RETURNED') not null,
+        primary key (id)
+    )
+2026-09-13T20:31:21.233-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    create table users (
+        created_at timestamp(6) with time zone not null,
+        id uuid not null,
+        email varchar(255) not null unique,
+        first_name varchar(255) not null,
+        last_name varchar(255) not null,
+        password varchar(255) not null,
+        phone_number varchar(255) not null,
+        membership_status enum ('ACTIVE','INACTIVE','SUSPENDED') not null,
+        role enum ('LIBRARIAN','PATRON') not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table users (
+        created_at timestamp(6) with time zone not null,
+        id uuid not null,
+        email varchar(255) not null unique,
+        first_name varchar(255) not null,
+        last_name varchar(255) not null,
+        password varchar(255) not null,
+        phone_number varchar(255) not null,
+        membership_status enum ('ACTIVE','INACTIVE','SUSPENDED') not null,
+        role enum ('LIBRARIAN','PATRON') not null,
+        primary key (id)
+    )
+2026-09-13T20:31:21.234-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    alter table if exists reservations 
+       add constraint FKrsdd3ib3landfpmgoolccjakt 
+       foreign key (book_id) 
+       references books
+Hibernate: 
+    alter table if exists reservations 
+       add constraint FKrsdd3ib3landfpmgoolccjakt 
+       foreign key (book_id) 
+       references books
+2026-09-13T20:31:21.236-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    alter table if exists reservations 
+       add constraint FKb5g9io5h54iwl2inkno50ppln 
+       foreign key (user_id) 
+       references users
+Hibernate: 
+    alter table if exists reservations 
+       add constraint FKb5g9io5h54iwl2inkno50ppln 
+       foreign key (user_id) 
+       references users
+2026-09-13T20:31:21.240-04:00  INFO 119983 --- [library-management-system] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-13T20:31:21.329-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] a.g.a.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2026-09-13T20:31:21.454-04:00  WARN 119983 --- [library-management-system] [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'reservationController' defined in file [/home/du_353716-1787850954/code/ga/week2/capstone/java-capstone/target/classes/assembly/general/api/controllers/ReservationController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'reservationService' defined in file [/home/du_353716-1787850954/code/ga/week2/capstone/java-capstone/target/classes/assembly/general/api/service/ReservationService.class]: Unsatisfied dependency expressed through constructor parameter 3: No qualifying bean of type 'java.time.Clock' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-09-13T20:31:21.454-04:00  INFO 119983 --- [library-management-system] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-13T20:31:21.454-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    drop table if exists books cascade 
+Hibernate: 
+    drop table if exists books cascade 
+2026-09-13T20:31:21.455-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    drop table if exists reservations cascade 
+Hibernate: 
+    drop table if exists reservations cascade 
+2026-09-13T20:31:21.455-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    drop table if exists users cascade 
+Hibernate: 
+    drop table if exists users cascade 
+2026-09-13T20:31:21.456-04:00  WARN 119983 --- [library-management-system] [  restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2026-09-13T20:31:21.456-04:00  INFO 119983 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-09-13T20:31:21.458-04:00  INFO 119983 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-09-13T20:31:21.459-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-09-13T20:31:21.462-04:00  INFO 119983 --- [library-management-system] [  restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-09-13T20:31:21.476-04:00 ERROR 119983 --- [library-management-system] [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 3 of constructor in assembly.general.api.service.ReservationService required a bean of type 'java.time.Clock' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'java.time.Clock' in your configuration.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.6)
+
+2026-09-13T20:32:41.377-04:00  INFO 119983 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Starting ApiApplication using Java 25.0.4.1 with PID 119983 (/home/du_353716-1787850954/code/ga/week2/capstone/java-capstone/target/classes started by du_353716-1787850954 in /home/du_353716-1787850954/code/ga/week2/capstone/java-capstone)
+2026-09-13T20:32:41.378-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Running with Spring Boot v3.5.6, Spring v6.2.11
+2026-09-13T20:32:41.378-04:00  INFO 119983 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : The following 1 profile is active: "dev"
+2026-09-13T20:32:41.499-04:00  INFO 119983 --- [library-management-system] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-13T20:32:41.522-04:00  INFO 119983 --- [library-management-system] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 3 JPA repository interfaces.
+2026-09-13T20:32:41.623-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-09-13T20:32:41.624-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-13T20:32:41.625-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-09-13T20:32:41.633-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2026-09-13T20:32:41.634-04:00  INFO 119983 --- [library-management-system] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 255 ms
+2026-09-13T20:32:41.662-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-13T20:32:41.663-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-13T20:32:41.670-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-13T20:32:41.670-04:00  INFO 119983 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-09-13T20:32:41.672-04:00  INFO 119983 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn31: url=jdbc:h2:mem:librarydb user=SA
+2026-09-13T20:32:41.672-04:00  INFO 119983 --- [library-management-system] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-09-13T20:32:41.672-04:00  INFO 119983 --- [library-management-system] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-13T20:32:41.757-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-13T20:32:41.757-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    drop table if exists books cascade 
+Hibernate: 
+    drop table if exists books cascade 
+2026-09-13T20:32:41.758-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    drop table if exists reservations cascade 
+Hibernate: 
+    drop table if exists reservations cascade 
+2026-09-13T20:32:41.758-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    drop table if exists users cascade 
+Hibernate: 
+    drop table if exists users cascade 
+2026-09-13T20:32:41.758-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    create table books (
+        available_copies integer not null,
+        page_count integer,
+        publication_year integer not null,
+        total_copies integer not null,
+        created_at timestamp(6) with time zone not null,
+        updated_at timestamp(6) with time zone not null,
+        id uuid not null,
+        description varchar(2000),
+        author varchar(255) not null,
+        genre varchar(255) not null,
+        isbn varchar(255) not null unique,
+        language varchar(255),
+        publisher varchar(255),
+        title varchar(255) not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table books (
+        available_copies integer not null,
+        page_count integer,
+        publication_year integer not null,
+        total_copies integer not null,
+        created_at timestamp(6) with time zone not null,
+        updated_at timestamp(6) with time zone not null,
+        id uuid not null,
+        description varchar(2000),
+        author varchar(255) not null,
+        genre varchar(255) not null,
+        isbn varchar(255) not null unique,
+        language varchar(255),
+        publisher varchar(255),
+        title varchar(255) not null,
+        primary key (id)
+    )
+2026-09-13T20:32:41.759-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    create table reservations (
+        late_days integer,
+        late_fee numeric(38,2),
+        checked_out_at timestamp(6) with time zone,
+        due_date timestamp(6) with time zone,
+        expires_at timestamp(6) with time zone not null,
+        reserved_at timestamp(6) with time zone not null,
+        returned_at timestamp(6) with time zone,
+        book_id uuid not null,
+        id uuid not null,
+        user_id uuid not null,
+        checkout_notes varchar(1000),
+        return_notes varchar(1000),
+        return_condition enum ('DAMAGED','FAIR','GOOD','POOR'),
+        status enum ('CANCELLED','CHECKED_OUT','RESERVED','RETURNED') not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table reservations (
+        late_days integer,
+        late_fee numeric(38,2),
+        checked_out_at timestamp(6) with time zone,
+        due_date timestamp(6) with time zone,
+        expires_at timestamp(6) with time zone not null,
+        reserved_at timestamp(6) with time zone not null,
+        returned_at timestamp(6) with time zone,
+        book_id uuid not null,
+        id uuid not null,
+        user_id uuid not null,
+        checkout_notes varchar(1000),
+        return_notes varchar(1000),
+        return_condition enum ('DAMAGED','FAIR','GOOD','POOR'),
+        status enum ('CANCELLED','CHECKED_OUT','RESERVED','RETURNED') not null,
+        primary key (id)
+    )
+2026-09-13T20:32:41.760-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    create table users (
+        created_at timestamp(6) with time zone not null,
+        id uuid not null,
+        email varchar(255) not null unique,
+        first_name varchar(255) not null,
+        last_name varchar(255) not null,
+        password varchar(255) not null,
+        phone_number varchar(255) not null,
+        membership_status enum ('ACTIVE','INACTIVE','SUSPENDED') not null,
+        role enum ('LIBRARIAN','PATRON') not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table users (
+        created_at timestamp(6) with time zone not null,
+        id uuid not null,
+        email varchar(255) not null unique,
+        first_name varchar(255) not null,
+        last_name varchar(255) not null,
+        password varchar(255) not null,
+        phone_number varchar(255) not null,
+        membership_status enum ('ACTIVE','INACTIVE','SUSPENDED') not null,
+        role enum ('LIBRARIAN','PATRON') not null,
+        primary key (id)
+    )
+2026-09-13T20:32:41.761-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    alter table if exists reservations 
+       add constraint FKrsdd3ib3landfpmgoolccjakt 
+       foreign key (book_id) 
+       references books
+Hibernate: 
+    alter table if exists reservations 
+       add constraint FKrsdd3ib3landfpmgoolccjakt 
+       foreign key (book_id) 
+       references books
+2026-09-13T20:32:41.762-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    alter table if exists reservations 
+       add constraint FKb5g9io5h54iwl2inkno50ppln 
+       foreign key (user_id) 
+       references users
+Hibernate: 
+    alter table if exists reservations 
+       add constraint FKb5g9io5h54iwl2inkno50ppln 
+       foreign key (user_id) 
+       references users
+2026-09-13T20:32:41.763-04:00  INFO 119983 --- [library-management-system] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-13T20:32:41.814-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] a.g.a.security.JwtAuthenticationFilter   : Filter 'jwtAuthenticationFilter' configured for use
+2026-09-13T20:32:41.976-04:00  WARN 119983 --- [library-management-system] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-13T20:32:42.062-04:00  INFO 119983 --- [library-management-system] [  restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-09-13T20:32:42.062-04:00  WARN 119983 --- [library-management-system] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-09-13T20:32:42.209-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:librarydb'
+2026-09-13T20:32:42.239-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-09-13T20:32:42.250-04:00  INFO 119983 --- [library-management-system] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-09-13T20:32:42.254-04:00  INFO 119983 --- [library-management-system] [  restartedMain] assembly.general.api.ApiApplication      : Started ApiApplication in 0.887 seconds (process running for 1908.054)
+2026-09-13T20:32:42.258-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    select
+        count(*) 
     from
         books b1_0
 Hibernate: 
     select
-        count(b1_0.id) 
+        count(*) 
     from
         books b1_0
-2026-09-13T19:10:48.916-04:00  WARN 116729 --- [library-management-system] [nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'bookId': Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: PASTE_A_BOOK_ID]
-2026-09-13T19:11:02.536-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-6] org.hibernate.SQL                        : 
+2026-09-13T20:32:42.266-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:32:42.267-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:32:42.269-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:32:42.270-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:32:42.271-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:32:42.274-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:32:42.278-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:32:42.279-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:32:42.279-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:32:42.281-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        books
+        (author, available_copies, created_at, description, genre, isbn, language, page_count, publication_year, publisher, title, total_copies, updated_at, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:32:42.314-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
     select
-        b1_0.id,
-        b1_0.author,
-        b1_0.available_copies,
-        b1_0.created_at,
-        b1_0.description,
-        b1_0.genre,
-        b1_0.isbn,
-        b1_0.language,
-        b1_0.page_count,
-        b1_0.publication_year,
-        b1_0.publisher,
-        b1_0.title,
-        b1_0.total_copies,
-        b1_0.updated_at 
+        u1_0.id 
     from
-        books b1_0 
+        users u1_0 
     where
-        b1_0.id=?
+        u1_0.email=? 
+    fetch
+        first ? rows only
 Hibernate: 
     select
-        b1_0.id,
-        b1_0.author,
-        b1_0.available_copies,
-        b1_0.created_at,
-        b1_0.description,
-        b1_0.genre,
-        b1_0.isbn,
-        b1_0.language,
-        b1_0.page_count,
-        b1_0.publication_year,
-        b1_0.publisher,
-        b1_0.title,
-        b1_0.total_copies,
-        b1_0.updated_at 
+        u1_0.id 
     from
-        books b1_0 
+        users u1_0 
     where
-        b1_0.id=?
-2026-09-13T19:11:02.539-04:00  WARN 116729 --- [library-management-system] [nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [assembly.general.api.exception.ResourceNotFoundException: Book not found with ID: 00000000-0000-0000-0000-000000000000]
-2026-09-13T19:11:10.282-04:00  WARN 116729 --- [library-management-system] [nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Method parameter 'bookId': Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; Invalid UUID string: not-a-real-uuid]
-2026-09-13T19:11:48.880-04:00 DEBUG 116729 --- [library-management-system] [nio-8080-exec-8] org.hibernate.SQL                        : 
-    select
-        b1_0.id,
-        b1_0.author,
-        b1_0.available_copies,
-        b1_0.created_at,
-        b1_0.description,
-        b1_0.genre,
-        b1_0.isbn,
-        b1_0.language,
-        b1_0.page_count,
-        b1_0.publication_year,
-        b1_0.publisher,
-        b1_0.title,
-        b1_0.total_copies,
-        b1_0.updated_at 
-    from
-        books b1_0 
-    where
-        b1_0.id=?
+        u1_0.email=? 
+    fetch
+        first ? rows only
+2026-09-13T20:32:42.399-04:00 DEBUG 119983 --- [library-management-system] [  restartedMain] org.hibernate.SQL                        : 
+    insert 
+    into
+        users
+        (created_at, email, first_name, last_name, membership_status, password, phone_number, role, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
 Hibernate: 
-    select
-        b1_0.id,
-        b1_0.author,
-        b1_0.available_copies,
-        b1_0.created_at,
-        b1_0.description,
-        b1_0.genre,
-        b1_0.isbn,
-        b1_0.language,
-        b1_0.page_count,
-        b1_0.publication_year,
-        b1_0.publisher,
-        b1_0.title,
-        b1_0.total_copies,
-        b1_0.updated_at 
-    from
-        books b1_0 
-    where
-        b1_0.id=?
+    insert 
+    into
+        users
+        (created_at, email, first_name, last_name, membership_status, password, phone_number, role, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2026-09-13T20:32:42.403-04:00  INFO 119983 --- [library-management-system] [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
